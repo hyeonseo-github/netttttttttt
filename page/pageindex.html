@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Youtube Mobile</title>
+    <script
+      src="https://kit.fontawesome.com/2d323a629b.js"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+
+  <body>
+
+
+
+
+    
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">network project</span>
+          </div>
+          <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+    </header>
+
+
+
+
+
+    <div class="playerAndInfoAndMessage">
+      <div class="playerAndInfo">
+        <!-- live video -->
+        <section class="player">
+          <img src="/gray.png" alt="" />
+        </section>
+
+        <!-- live info -->
+        <section class="info">
+          <!-- metadata -->
+          <div class="metadata">
+            <div class="title">
+              <span class="title">
+                게임하고싶어!!
+              </span>
+              <button class="moreBtn">
+                <i class="fas fa-caret-down"></i>
+             </button>
+            </div>
+            <div class="views">2,345 views</div>
+          </div>
+          <!-- channel -->
+          <div class="channel">
+            <div class="metadata">
+              <img src="/cat.jpg" alt="프로필">
+              <div class="info">
+                <span class="name">Yerim</span>
+                <span class="subscribers">구독자 15.1만명</span>
+            </div>
+            </div>
+            <button class="subscribe">구독하기</button>
+          </div>
+        </section>
+        </div>
+      
+      <!-- live message -->
+      <section class="message">
+        <span class="title">실시간 메시지</span>
+        <div class="message">
+          <div>
+            <input type="text" id="test" placeholder="메시지를 입력해주세요..">
+            <button onclick="send()">전송</button>
+          </div>
+        </div>
+      </section>
+
+    </div> 
+
+
+
+
+  </body>
+</html>
